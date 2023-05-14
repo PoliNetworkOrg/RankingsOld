@@ -7,7 +7,7 @@ export type Course = {
   table: TableData
 }
 
-type Phase = {
+export type Phase = {
   phase: string
   global: TableData
   courses: Course[]
