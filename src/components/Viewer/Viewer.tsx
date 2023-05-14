@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { useContext, useEffect, useMemo, useState } from "react"
 import DATA from "../../utils/data/data.json"
-import { School, Structure, TableData } from "../../utils/types"
+import { Course, School, Structure } from "../../utils/types"
 import Table from "./Table"
 import Spinner from "../ui/Spinner.tsx"
 import ButtonSelect from "../ui/ButtonSelect"
@@ -51,7 +51,7 @@ export default function Viewer() {
   )
 
   const courses = useMemo(() => {
-    const list: { name: string; table: TableData }[] = []
+    const list: Course[] = []
     if (global[0].length) list.push({ name: ABS_ORDER, table: global })
 
     const phasesCourses = phases
