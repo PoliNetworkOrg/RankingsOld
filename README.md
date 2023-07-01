@@ -1,6 +1,6 @@
 # Rankings
 
-* https://polinetworkorg.github.io/Rankings/
+* https://polinetworkorg.github.io/RankingsOld/
 * https://github.com/PoliNetworkOrg/GraduatorieScript
 
 
